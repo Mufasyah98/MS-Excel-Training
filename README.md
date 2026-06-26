@@ -1,18 +1,17 @@
-I've filled in all the date function formulas for the exercise. Here's a summary of what each formula does:
+Observation	Study_Hours	Test_Score	Sleep_Hours	Stress_Level	Exercise_Min
+1	2	55	5	8	15
+2	3	62	6	7	20
+3	4	68	6	6	30
+4	5	75	7	5	25
+5	6	82	7	4	40
+6	3	58	5	8	10
+7	7	88	8	3	45
+8	4	65	6	6	35
+9	8	92	8	2	50
+10	5	72	7	5	30
+11	2	52	5	9	20
+12	6	78	7	4	35
+13	9	95	9	2	55
+14	1	48	4	9	10
+15	7	85	8	3	40
 
-| Cell | Description | Formula |
-|------|-------------|---------|
-| G73 | Today's date | `=TODAY()` |
-| G74 | Current date & time | `=NOW()` |
-| G75 | Year from Project Start | `=YEAR(B73)` → 2024 |
-| G76 | Month from Project Start | `=MONTH(B73)` → 1 |
-| G77 | Day from Project Start | `=DAY(B73)` → 15 |
-| G78 | Create date (2024, 12, 25) | `=DATE(2024,12,25)` |
-| G79 | Day of week (1=Sun) | `=WEEKDAY(B73,1)` → 2 (Monday) |
-| G80 | End of Project Start month | `=EOMONTH(B73,0)` → Jan 31, 2024 |
-| G81 | Working days (Start to End) | `=NETWORKDAYS(B73,B74)` → 120 days |
-| G82 | Years employed | `=DATEDIF(B75,TODAY(),"Y")` → 6 years |
-| G83 | Age from Birthday | `=DATEDIF(B76,TODAY(),"Y")` → 35 years |
-| G84 | 3 months after Start | `=EDATE(B73,3)` → Apr 15, 2024 |
-
-The cells will display as dates/numbers based on Excel's formatting. You may want to format the date cells appropriately to see the results clearly.
